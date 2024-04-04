@@ -5,16 +5,23 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png"/>
-    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png"/>
-    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+    <link rel="icon" sizes="16x16" href="../favicon.ico">
+    <link rel="icon" sizes="32x32" href="../favicon.ico">
     <link rel="manifest" href="images/site.webmanifest">
+    <link rel="stylesheet" href="styles/main.css">
 
     <meta name="description" content="A website all about possums">
     <title>Home - Possum Palooza</title>
 </head>
 
 <body>
+    <picture>
+        <source media="(min-width: 801px)" srcset="images/hero/bumble-bee-1920px.jpg">
+        <source media="(min-width: 401px)" srcset="images/hero/bumble-bee-800px.jpg">
+        <source media="(max-width: 400px)" srcset="images/hero/bumble-bee-400px.jpg">
+        <img src="images/hero/bumble-bee-1920px.jpg" alt="yellow cool car">
+    </picture>
+
     <header>
         <nav>
             <ul>
@@ -25,6 +32,7 @@
         </nav>
     </header>
 
+
     <h1>Possum Palooza - All about possums</h1>
     <p>Your one-stop source for all things related to possums.</p>
 
@@ -33,8 +41,7 @@
             <h2>The Misunderstood and Misrepresented Possum</h2>
 
             <figure>
-                <img src="images/possum-skateboard.png" alt="a cyberpunk illustration of a possum on a skateboard"
-                    width="400" height="400">
+                <img src="./readme-assets/hero-squirrel-1920w.jpg" alt="standing racoon" height="500" width="600">
                 <figcaption>Possums</figcaption>
             </figure>
 
